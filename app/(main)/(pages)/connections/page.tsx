@@ -2,7 +2,10 @@ import { CONNECTIONS } from '@/lib/constants'
 import React from 'react'
 import ConnectionCard from './_components/connection-card'
 
-type Props = {}
+type Props = {
+searchParams?:{[key:string]:string | undefined}
+
+}
 
 const Connections = (props: Props) => {
   return (
